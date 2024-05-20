@@ -1,0 +1,96 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('wallhaven-j88pvq.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #d4d4d4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .profile, .links, .projects, .friends {
+    background-color: rgba(43, 43, 43, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #ff9cd6;
+    margin-bottom: 10px;
+  }
+  
+  .profile {
+    margin-bottom: 20px;
+  }
+  
+  .profile p {
+    margin: 5px 0;
+  }
+  
+  .links {
+    margin-bottom: 20px;
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .links li {
+    margin-bottom: 5px;
+  }
+  
+  .projects {
+    margin-bottom: 20px;
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .project {
+    margin-bottom: 10px;
+    border-left: 2px solid #9cd1ff;
+    padding-left: 10px;
+  }
+  
+  .project h3 {
+    margin: 0;
+    color: #9cd1ff;
+  }
+  
+  .project p {
+    margin: 5px 0;
+  }
+  
+  .friends {
+    margin-bottom: 20px;
+    background-color: #2b2b2b;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+  }
+  
+  a {
+    color: #9cd1ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
